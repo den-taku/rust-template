@@ -1,10 +1,15 @@
 [package]
 name = "rust-template"
 version = "0.1.0"
+repository = "https://github.com/den-taku/rust-template"
+description = ""
+# homepage = ""
+# documentation = "" # Maybe needless
+# categories = [""]
+# keywords = [""]
 authors = ["DenTaku <dentaku1412@gmail.com>"]
 edition = "2021"
-description = ""
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license-file = "LICENSE"
+readme = "README.md"
 
 [dependencies]
