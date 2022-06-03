@@ -25,7 +25,7 @@ RUN cargo build --release --target x86_64-unknown-linux-musl
 RUN strip /user/rust-template/target/x86_64-unknown-linux-musl/release/rust-template
 
 # FROM ekidd/rust-musl-builder:stable
-FROM rust:1.57-slim
+FROM rust:1.59-slim
 
 COPY --from=builder \
     /user/rust-template/target/x86_64-unknown-linux-musl/release/rust-template /

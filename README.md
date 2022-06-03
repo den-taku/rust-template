@@ -7,6 +7,6 @@ Template for Rust projects
 
 - [ ] In `Cargo.toml`, replace `"rust-template"` with project name and write description.
 - [ ] Rechoose appropriate LICENSE.
-- [ ] Modify `Dockerfile`.
+- [ ] Modify `compose.yaml`, `docker/Dockerfile`, and `docker/pub/Dockerfile`.
 - [ ] Set up `develop` branch as the default bransh.
 - [ ] Fit `README.md` to your project.

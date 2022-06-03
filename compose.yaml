@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  runtime:
+    container_name: rust-template
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
+    volumes:
+      - type: bind
+        source: ./
+        target: /usr/src/rust-template
+    tty: true
